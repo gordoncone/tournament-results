@@ -1,0 +1,47 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh12880\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 \'97\'97\'97Starting the Vagrant Virtual Machine\
+\
+1. Change directory to fullstack/vagrant (cd fullstack/vagrant\
+\
+2. Type - Vagrant up to start the virtual machine\
+\
+3. Once Vagrant is up and running \'97 Type \'97 vagrant ssh to log into the virtual machine\
+\
+4. Once you are logged into the VM, cd /vagrant/tournament (Note: This directory is synced to both \
+the virtual machine and local computer. Changes made in this directory on local computer or vm will be visible for both) The directory is where your python files are located\
+\
+\
+\'97\'97\'97 Logging into tournament database\
+\
+1. On your vagrant VM, type psql tournament to log into tournament database\
+\
+2. Once logged into database, you should see this prompt  \'93
+\f1 \CocoaLigature0 tournament=>\'94\
+\
+3. This will allow you to run queries against the database\
+\
+4. Start up a new terminal session to start testing code\
+\
+5. CD to fullstack/vagrant/tournament\
+\
+6. run test by typing python tournament_test.py or ./tournament_test.py\
+\
+\
+\'97 \'97 \'97 Output\
+\
+1. Old matches, records and players1 can be deleted\
+\
+2. countPlayers1() return zero\
+\
+3. CountPlayers1() returns 1\
+\
+4. players1 can be registered and deleted\
+\
+5. New players1 are added into tables\
+\
+6. Players1 matched up to go against each other in the swiss system}
